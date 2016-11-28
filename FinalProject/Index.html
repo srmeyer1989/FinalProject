@@ -5,6 +5,8 @@
     <meta charset="utf-8" />
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <link href="StyleSheet.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="JavaScript.js"></script>
 </head>
 <body>
     <div class="container">
@@ -13,7 +15,7 @@
             <div class="col-md-6">
                 <div class="form-group">
                     <label for="class">Course:</label>
-                    <select class="form-control" name="class">
+                    <select class="form-control" name="class" id="courseCombo">
                         <option value="math">Math</option>
                         <option value="english">English</option>
                         <option value="science">Science</option>
@@ -21,12 +23,11 @@
                     </select>
                     <br />
                     <label for="assnName">Assignment Name:</label>
-                    <input class="form-control" type="text" name="assnName"><br />
-
+                    <input class="form-control" type="text" name="assnName" id="assnName"><br />
                     <label for="dueDate">Due Date:</label>
-                    <input class="form-control" type="text" name="dueDate">
+                    <input class="form-control" type="text" name="dueDate" id="dueDate">
                     <br />
-                    <button class="form-control btn-default" type="submit">Submit</button>
+                    <button class="form-control btn-default" type="submit" id="submit">Submit</button>
                 </div>
             </div>
         </div>
@@ -51,7 +52,7 @@
                             </th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody id="toDoBody">
                         <tr>
                             <td>401</td>
                             <td>Math</td>
@@ -82,49 +83,9 @@
                             <th>
                                 Due Date
                             </th>
-                            <th>
-                                Edit
-                            </th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr>
-                            <td>401</td>
-                            <td>Math</td>
-                            <td>Example Assignment</td>
-                            <td>11-24-16</td>
-                            <td>
-                                <button class="form-control btn-default" type="button">Edit</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>402</td>
-                            <td>Social Studies</td>
-                            <td>Example Assignment 2</td>
-                            <td>11-30-16</td>
-                            <td>
-                                <button class="form-control btn-default" type="button">Edit</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>403</td>
-                            <td>English</td>
-                            <td>Example Assignment 3</td>
-                            <td>12-12-16</td>
-                            <td>
-                                <button class="form-control btn-default" type="button">Edit</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>404</td>
-                            <td>Science</td>
-                            <td>Example Assignment 4</td>
-                            <td>12-01-16</td>
-                            <td>
-                                <button class="form-control btn-default" type="button">Edit</button>
-                            </td>
-                        </tr>
-                    </tbody>
+                    <tbody id="futureAssn"></tbody>
                     <tfoot>
                     </tfoot>
                 </table>

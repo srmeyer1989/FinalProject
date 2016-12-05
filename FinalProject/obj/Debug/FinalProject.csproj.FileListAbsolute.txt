@@ -30,3 +30,35 @@ c:\users\shaun\documents\visual studio 2015\Projects\FinalProject\FinalProject\b
 c:\users\shaun\documents\visual studio 2015\Projects\FinalProject\FinalProject\obj\Debug\FinalProject.csprojResolveAssemblyReference.cache
 c:\users\shaun\documents\visual studio 2015\Projects\FinalProject\FinalProject\obj\Debug\FinalProject.dll
 c:\users\shaun\documents\visual studio 2015\Projects\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\roslyn\csc.exe
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\roslyn\vbc.exe
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\FinalProject.dll.config
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\FinalProject.dll
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\FinalProject.pdb
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\Microsoft.AI.Web.dll
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\Microsoft.AI.Web.xml
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\obj\Debug\FinalProject.csprojResolveAssemblyReference.cache
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\obj\Debug\FinalProject.dll
+C:\Users\Shaun\Source\Repos\FinalProject\FinalProject\obj\Debug\FinalProject.pdb

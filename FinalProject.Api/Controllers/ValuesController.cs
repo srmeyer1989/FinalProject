@@ -42,11 +42,23 @@ namespace FinalProject.Api.Controllers
         {
             return "value";
         }
-
+        [HttpPost]
         // POST api/values
-        public void Post([FromBody]string value)
+        public Assignment Post(Assignment assignment)
         {
+            var connectionString = ConfigurationManager.ConnectionStrings["connection"].ConnectionString;
+            var connection = new SqlConnection(connectionString);
+            var add = new SqlCommand("INSERT INTO dbo.Assignments(Course, Assignment, DueDate) VALUES (@course, @name, @dueDate)", connection);
+            add.Parameters.AddWithValue("course", assignment.Course);
+            add.Parameters.AddWithValue("name", assignment.Name);
+            add.Parameters.AddWithValue("dueDate", assignment.DueDate);
+            connection.Open();
+            add.ExecuteNonQuery();
+            connection.Close();
+            return assignment;
         }
+
+
 
         // PUT api/values/5
         public void Put(int id, [FromBody]string value)

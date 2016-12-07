@@ -7,10 +7,11 @@ namespace FinalProject.Api
 {
     public class Assignment
     {
+        public int Id { get; set; }
         public DateTime DueDate { get; set; }
         public string Course { get; set; }
         public string Name { get; set; }
-        public int Id { get; set; }
+
         public Assignment()
         {
 

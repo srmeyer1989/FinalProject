@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="JavaScript.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Homework Tracker</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="class">Course:</label>
+                    <select class="form-control" name="class" id="courseCombo">
+                        <option value="math">Math</option>
+                        <option value="english">English</option>
+                        <option value="science">Science</option>
+                        <option value="socialstudies">Social Studies</option>
+                    </select>
+                    <br />
+                    <label for="assnName">Assignment Name:</label>
+                    <input class="form-control" type="text" name="assnName" id="assnName"><br />
+                    <label for="dueDate">Due Date:</label>
+                    <input class="form-control" type="text" name="dueDate" id="dueDate">
+                    <br />
+                    <button class="form-control btn-default" type="submit" id="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <h2>Due this week.</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                Course #
+                            </th>
+                            <th>
+                                Course
+                            </th>
+                            <th>
+                                Assignment Name
+                            </th>
+                            <th>
+                                Due Date
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="toDoBody">
+                        <tr>
+                            <td>401</td>
+                            <td>Math</td>
+                            <td>Example Assignment</td>
+                            <td>11-24-16</td>
+                    </tbody>
+                    <tfoot>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+        <hr />
+        <h3>Future Assignments.</h3>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                Course #
+                            </th>
+                            <th>
+                                Course
+                            </th>
+                            <th>
+                                Assignment Name
+                            </th>
+                            <th>
+                                Due Date
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="futureAssn"></tbody>
+                    <tfoot>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+</body>
+</html>

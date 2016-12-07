@@ -1,18 +1,40 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Configuration;
 
 namespace FinalProject.Api.Controllers
 {
     public class ValuesController : ApiController
     {
+        [HttpGet]
         // GET api/values
-        public IEnumerable<string> Get()
+        public IEnumerable<Assignment> Get()
         {
-            return new string[] { "value1", "value2" };
+            var connectionString = ConfigurationManager.ConnectionStrings["connection"].ConnectionString;
+            var assignments = new List<Assignment>();
+
+            var connection = new SqlConnection(connectionString);
+            var command = new SqlCommand("select * from dbo.Assignments", connection);
+            connection.Open();
+            var reader = command.ExecuteReader();
+
+            while (reader.Read())
+            {
+                int id = Convert.ToInt32(reader["id"]);
+                DateTime dueDate = Convert.ToDateTime(reader["DueDate"]);
+                string name = reader["Assignment"].ToString();
+                string course = reader["Course"].ToString();
+
+                var assignment = new Assignment(dueDate, course, id, name);
+                assignments.Add(assignment);
+
+            }
+            return assignments;
         }
 
         // GET api/values/5
